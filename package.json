@@ -1,0 +1,30 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "learning JS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CheonjiKim/Learning-JS-with-wetube-lessons.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "author": "Cheonji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CheonjiKim/Learning-JS-with-wetube-lessons/issues"
+  },
+  "homepage": "https://github.com/CheonjiKim/Learning-JS-with-wetube-lessons#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/node": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/standalone": "^7.18.5",
+    "babel-plugin-module-resolver-standalone": "^0.0.2",
+    "nodemon": "^2.0.18",
+    "requirejs-babel": "^0.0.9"
+  }
+}
